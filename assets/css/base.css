@@ -1,0 +1,189 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #f5f5f5;
+  padding: 0;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  max-width: 1024px;
+  padding-top: 10px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+/*code {
+  font-size: 80%;
+}*/
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: black;
+}
+* {
+    font-family: 'Arapey', sans-serif;
+    font-size: 14
+}
+
+header {
+    margin: 0 auto 4em auto;
+    padding-top: 3em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+header hr {
+    border-top: 1px solid #000;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    margin: 1em 0;
+}
+
+
+header ul {
+    font-family: 'Arapey', sans-serif;
+    list-style: none;
+    float: right;
+    font-size: 1.25em;
+}
+
+header ul li {
+    float: left;
+    margin-right: 0.8em;
+    padding: 0 0.8em 0 0;
+    border-right: 1px solid #eaeaea;
+}
+
+header ul li:last-child {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.site-logo {
+  float: left;
+  height: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover, a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:not(.post-title):not(header ul li a):hover {
+  color: #41ddff;
+}
+
+
+.post-preview .post-title, .post h1 {
+  font-family: 'Arapey', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 0.25em;
+}
+
+.post h1{
+  margin-bottom: 0px;
+}
+
+.post-meta {
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.post-content {
+  font-weight: 400;
+}
+.post-tags {
+  font-style: normal;
+  padding-top: .75em;
+}
+
+.post .post-meta, .post .post-tags {
+  padding-bottom: .75em;
+}
+
+.tag-posts ul li, .archived-posts ul li {
+  font-size: 16px;
+}
+/*
+a:not(.plain):before {
+  content: "\f0c1";
+}
+*/
+a:not(.plain){
+  text-decoration: none;
+}
+a:not(.plain):after {
+  content: "\00a0\f0c1";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color:rgba(46, 203, 255, 0.84);
+    position:relative;
+    padding-left: 0.1em;
+    font-size: 0.75em;
+
+}
+a:not(.plain):after:hover{
+  text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 4em;
+}
