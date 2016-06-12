@@ -1,6 +1,6 @@
 
 <header>
-      <a href="/" class="plain"><img src="/images/logo.png" alt="" class="site-logo img-responsive"/></a>
+      <a href="/" class="plain"><img src="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/ico/icon.png" alt="" class="site-logo img-responsive"/></a>
       <h1>Manik Magar</h1>
       <hr/>
       <ul>
