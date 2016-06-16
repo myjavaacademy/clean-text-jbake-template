@@ -10,5 +10,6 @@
 		<p class="post-tags"><% if (content.tags) { %> Tags:  <% content.tags.each {tag -> %><a href="/tags/${tag}.html">${tag}</a>, <% } } %> </p>
 	</div>
 	<hr />
-	<%include "disqus.gsp"%>
+	<%include "github_comments.gsp"%>
+	
 <%include "footer.gsp"%>

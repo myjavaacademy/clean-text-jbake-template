@@ -10,5 +10,6 @@
 	<p>${content.body}</p>
 
 	<hr />
+<%include "github_comments.gsp"%>
 
 <%include "footer.gsp"%>

@@ -7,7 +7,7 @@
   <meta name="keywords" content="">
   <meta name="generator" content="JBake">
 
-  <link href='https://fonts.googleapis.com/css?family=Arapey:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <!-- Le styles -->
   <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +15,10 @@
   <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/css/base.css" rel="stylesheet">
   <link href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/css/prettify.css" rel="stylesheet">
 
+	<script src="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/js/jquery-1.11.1.min.js"></script>
+    <script src="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/js/bootstrap.min.js"></script>
+    <script src="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/js/prettify.js"></script>
+	
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
