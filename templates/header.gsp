@@ -11,7 +11,7 @@
               <a class="plain" href="/about.html">About Me</a>
           </li>
           <li>
-              <a class="plain" href="/contact">Contact</a>
+              <a class="plain" href="/contact.html">Contact</a>
           </li>
       </ul>
 </header>

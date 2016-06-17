@@ -1,5 +1,6 @@
 <% if (config.github_comments && content.githubIssueId) { %>
 <section class="comments">
+	<hr/>
 	<div id="comments_count_header"></div>
 	<div id="comments_ask">
 		Have something to say? Add a comment to <a href="https://github.com/${config.github_username}/${config.github_issues_repo}/issues/${content.githubIssueId}"> this post's issue page on GitHub</a> (you'll need a GitHub account. You have one, right!).

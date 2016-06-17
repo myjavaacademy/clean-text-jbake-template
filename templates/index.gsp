@@ -6,11 +6,11 @@
 			<a href="${post.uri}" class="plain post-title">
 				${post.title}
 			</a>
-			<p class="post-meta">Posted on ${post.date.format("dd MMMM yyyy")}</p>
-			<p class="post-content"> <% if (post.excerpt) {%> ${post.excerpt}
+			<p class="post-meta">Published on ${post.date.format("dd MMMM yyyy")}</p>
+			<p class="post-content"> <% if (post.summary) {%> ${post.summary}
 						<% } else {%>
-					${post.body[0..100]}...<span class="read-more"> <% } %>
-					<a href="${post.uri}">Read More</a></span>
+					<% print post.body.length() > 100 ? post.body[0..100] : post.body } %>
+					...<span class="read-more"><a href="${post.uri}">Read More</a></span>
 			</p>
 			<hr/>
 		</div>

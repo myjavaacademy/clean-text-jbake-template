@@ -2,9 +2,9 @@
   <meta charset="utf-8"/>
   <title><%if (content.title) {%>${content.title}<% } else { %>${config.site_name}<% }%></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="<% print content.summary ? content.summary : content.author %>">
+  <meta name="author" content="${content.author}">
+  <meta name="keywords" content="${content.tags}">
   <meta name="generator" content="JBake">
 
   <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
