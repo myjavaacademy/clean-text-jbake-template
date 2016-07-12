@@ -3,14 +3,15 @@
 
 	<%published_posts.each {post ->%>
 		<div class="post-preview">
-			<a href="${post.uri}" class="plain post-title">
+			<a href="${post.permalink}" class="plain post-title">
 				${post.title}
 			</a>
-			<p class="post-meta">Published on ${post.date.format("dd MMMM yyyy")}</p>
+			<p class="post-meta">Published by <% print post.author? post.author: config.default_author  %> on ${post.date.format("dd MMMM yyyy")} under <a href="/${config.categories_path}/${post.primary_category}">${post.primary_category}</a>
+		</p>
 			<p class="post-content"> <% if (post.summary) {%> ${post.summary}
 						<% } else {%>
 					<% print post.body.length() > 100 ? post.body[0..100] : post.body } %>
-					...<span class="read-more"><a href="${post.uri}">Read More</a></span>
+					...<span class="read-more"><a href="${post.permalink}">Read More</a></span>
 			</p>
 			<hr/>
 		</div>

@@ -7,7 +7,7 @@
 
   ga('create', '${config.ga_tracking_id}', 'auto');
   ga('send', 'pageview', {
-    'page': '<% if (content.uri) { %>${content.uri} <% } else { %> ${config.site_host}<% } %>',
+    'page': '<% if (content.permalink) { %>${content.permalink} <% } else { %> ${config.site_host}<% } %>',
     'title': '<% if (content.title) { %>${content.title} <% } else { %> ${config.site_name}<% } %>'
       });
 
