@@ -1,12 +1,12 @@
 <%include 'common_header.gsp'%>
 
 	<div class="page-header">
-		<h1>Tag: ${tag}</h1>
+		<h1>Category: ${category}</h1>
 	</div>
-	<div class="tag-posts">
+	<div class="category-posts">
 	<!--<ul>-->
 		<%def last_month=null;%>
-		<%tag_posts.each {post ->%>
+		<%category_posts.each {post ->%>
 		<%if (last_month) {%>
 			<%if (post.date.format("MMMM yyyy") != last_month) {%>
 				</ul>

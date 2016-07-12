@@ -6,7 +6,8 @@
 
 		<footer>
 					<hr/>
-	        <p class="muted credit">Manik Magar &copy; 2016 | Proudly Baked with <a href="http://jbake.org">JBake ${version}</a> | <a href="/sitemap.xml">Sitemap</a></p>
+	        <p class="muted credit">${config.site_name} &copy; 2016 | Baked with <a href="https://github.com/myjavaacademy/jbake">JBake</a> | <a href="/sitemap.xml">Sitemap </a> | <a href="/terms-of-use">Terms of Use</a></p>
+	       
 		</footer>
 
   

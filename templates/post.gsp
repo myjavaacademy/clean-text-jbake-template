@@ -2,7 +2,7 @@
 	
 	<div class="post">
 		<h1 class="post-title">${content.title}</h1>
-		<p class="post-meta">Published on ${content.date.format("dd MMMM yyyy")}
+		<p class="post-meta">Published by <% print content.author? content.author: config.default_author  %> on ${content.date.format("dd MMMM yyyy")} under <a href="/${config.categories_path}/${content.primary_category}">${content.primary_category}</a>
 		</p>
 		
 		<div class="post-summary">
@@ -16,6 +16,6 @@
 		
 	</div>
 	
-	<%include "github_comments.gsp"%>
+	<%include "disqus.gsp"%>
 	
 <%include "footer.gsp"%>
