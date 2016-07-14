@@ -18,7 +18,7 @@
 			<ul>
 		<%}%>
 
-		<li>${post.date.format("dd")} - <a href="${content.rootpath}${post.permalink}">${post.title}</a></li>
+		<li>${post.date.format("dd")} - <a href="${post.permalink}">${post.title}</a></li>
 		<% last_month = post.date.format("MMMM yyyy")%>
 		<%}%>
 	</ul>

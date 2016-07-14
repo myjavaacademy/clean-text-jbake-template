@@ -25,7 +25,7 @@
 			          <a href="#" class="dropdown-toggle plain" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
 			          <ul class="dropdown-menu">
 			            <% all_categories.each {category ->%>
-								<li><a class="plain" href="/${config.categories_path}/${category}"/>${category}</a></li>
+								<li><a class="plain" href="/${config.categories_path}/<% print category.replaceAll(' ','-') %>"/>${category}</a></li>
 							<%}%>
 			          </ul>
 			        </li>

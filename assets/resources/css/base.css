@@ -455,3 +455,7 @@ i.pinterest,span.pinterest{ color: #cb2027; }
    line-height: 10px;
    margin-left: 15px;
 }
+
+.disqus {
+	margin-top: 4em;
+}

@@ -6,7 +6,7 @@
 			<a href="${post.permalink}" class="plain post-title">
 				${post.title}
 			</a>
-			<p class="post-meta">Published by <% print post.author? post.author: config.default_author  %> on ${post.date.format("dd MMMM yyyy")} under <a href="/${config.categories_path}/${post.primary_category}">${post.primary_category}</a>
+			<p class="post-meta">Published by <% print post.author? post.author: config.default_author  %> on ${post.date.format("dd MMMM yyyy")} under <a href="/${config.categories_path}/<% print post.primary_category.replaceAll(' ','-') %>">${post.primary_category}</a>
 		</p>
 			<p class="post-content"> <% if (post.summary) {%> ${post.summary}
 						<% } else {%>

@@ -1,4 +1,12 @@
 
+		<div id="tagsCloud">
+			<hr/>
+			<h4>Tags Cloud</h4>
+			<% alltags.each {tag ->%>
+				<a class="plain" href="/${config.tag_path}/${tag}${config.output_extension}"/>${tag}</a> | 
+			<%}%>
+		
+		<div>
 		<div id="push"></div>
 
 
