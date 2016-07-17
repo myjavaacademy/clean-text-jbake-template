@@ -6,7 +6,7 @@
 	<div class="category-posts">
 		<ul>
 		<%content.categories.each {category,path ->%>
-			<li><a href="${path}"/>${category}</a></li>
+			<li><a href="${content.rootpath}${path}"/>${category}</a></li>
 		<%}%>
 		</ul>
 		</div>

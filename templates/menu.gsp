@@ -29,17 +29,11 @@
 							<%}%>
 			          </ul>
 			        </li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle plain" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tags <span class="caret"></span></a>
-			          <ul class="dropdown-menu">
-			            <% alltags.each {tag ->%>
-								<li><a class="plain" href="/${config.tag_path}/${tag}${config.output_extension}"/>${tag}</a></li>
-							<%}%>
-			          </ul>
-			        </li>
-                    
-                    <li>
+			        <li>
                         <a class="plain" href="/${config.archive_file}">All Posts</a>
+                    </li>
+                    <li>
+                        <a class="plain" href="/${config.feed_file}"><i class="fa fa-rss-square" aria-hidden="true"></i> RSS Feed</a>
                     </li>
                 </ul>
             </div>
