@@ -535,3 +535,7 @@ blockquote {
 blockquote blockquote {
     padding-right: 0;
 }
+
+.cc_message{
+	color: #fff;
+}
