@@ -10,7 +10,7 @@
 
 			
 		<div id="mailChimp">
-				<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"7c35fa572a415c48c52062bce","lid":"069c141fd2"}) })</script>
+				
 		
 		</div>
 		<%include "googleTracking.gsp"%>
