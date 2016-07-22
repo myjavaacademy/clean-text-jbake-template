@@ -32,8 +32,9 @@
 			        <li>
                         <a class="plain" href="/${config.archive_file}">All Posts</a>
                     </li>
+                    
                     <li>
-                        <a class="plain" href="/${config.feed_file}"><i class="fa fa-rss-square" aria-hidden="true"></i> RSS Feed</a>
+                        <a class="plain" href="http://eepurl.com/b-IJAD" target="_blank">Subscribe</a>
                     </li>
                 </ul>
             </div>
