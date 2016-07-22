@@ -44,4 +44,14 @@
 <meta name="msapplication-TileImage" content="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/ico/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
   <link rel="shortcut icon" href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>resources/ico/favicon.ico">
+  
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website. If you continue to use this site, you agree to our use of cookies.","dismiss":"Got it!","learnMore":"More info","link":"/terms-usage-privacy/","theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+  
 </head>
