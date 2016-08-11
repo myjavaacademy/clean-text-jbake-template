@@ -6,6 +6,8 @@
   <meta name="author" content="${content.author}">
   <meta name="keywords" content="${content.tags}">
   <meta name="generator" content="JBake">
+  
+  <meta name="google-site-verification" content="jbazAX2RLtiuxx6yp_v9szmjUn-7jjIUOAqJztp2zfw" />
 
   <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
